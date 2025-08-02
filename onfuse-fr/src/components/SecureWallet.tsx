@@ -60,7 +60,7 @@ const SecureWallet = () => {
         </div>
       </div>
 
-      {/* button component */}
+    
       <button className="w-full bg-blue-500 text-white py-3 sm:py-4 rounded-2xl text-base sm:text-lg font-medium hover:bg-blue-600 transition-colors mt-auto">
         Add button component
       </button>
