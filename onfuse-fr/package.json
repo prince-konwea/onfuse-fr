@@ -15,9 +15,12 @@
     "alchemy-sdk": "^3.6.2",
     "ethers": "^6.15.0",
     "framer-motion": "^12.23.12",
+    "install": "^0.13.0",
     "lucide-react": "^0.536.0",
+    "npm": "^11.5.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.7.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
