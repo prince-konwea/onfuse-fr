@@ -1,15 +1,11 @@
-import Button from './components/ui/Button'
-import './App.css'
+import React from 'react'
 
-function App() {
-
-
+const App = () => {
   return (
-    <div className=''>
-      <Button/>
+    <div>
+Hello world
     </div>
   )
-
 }
 
 export default App
