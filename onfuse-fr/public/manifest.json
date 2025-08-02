@@ -1,36 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Onfuse",
-  "version": "1.0.0",
-  "permissions": [
-    "storage"
-  ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
-  "icons": {
-   
-  },
+  "name": "Wallet Extension",
+  "description": "A simple crypto wallet",
+  "version": "1.0",
+  "permissions": ["storage", "notifications", "activeTab", "scripting"],
   "action": {
-    "default_icon": {
-   
-    },
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "icons/icon.png"
   },
   "background": {
-    "service_worker": "service-worker-loader.js",
-    "type": "module"
+    "service_worker": "background.js"
   },
-  "web_accessible_resources": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "resources": [
-        "**/*",
-        "*"
-      ],
-      "use_dynamic_url": false
-    }
-  ]
+  "icons": {
+    "48": "icons/icon.png"
+  }
 }
